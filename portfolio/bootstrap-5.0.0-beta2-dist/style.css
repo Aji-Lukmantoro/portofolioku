@@ -1,0 +1,257 @@
+html {
+  position: relative;
+}
+
+.navbar-brand img:hover {
+  animation: bgcolor infinite 1.5s;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+.navbar ul li a {
+  margin: 0px 15px;
+}
+
+div ul li a:hover {
+  transition: 0.5s;
+  padding: px 17px;
+  text-transform: uppercase;
+  border-radius: 5px 15px;
+  animation: bgcolor infinite 2.5s;
+}
+
+.jumbotron {
+  padding-top: 9rem;
+  animation: bgcolor infinite 5s;
+}
+
+/* .display-4 {
+  color: white;
+  box-shadow: 0px 15px 9px 2px rgba(40, 0, 0, 0.5);
+} */
+
+h2 span {
+  position: relative;
+  display: inline-flex;
+  color: white;
+  font-size: 75px;
+}
+
+h2 span:nth-child(odd) {
+  letter-spacing: -1em;
+  color: white;
+  line-height: 1em;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+h2:hover span:nth-child(odd) {
+  letter-spacing: 0;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 35px;
+  margin-left: 17px;
+  /* font-family: "Audiowide", sans-serif; */
+}
+
+/* .divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom.divider-light .divider-custom-icon {
+  color: #fff !important;
+  font-size: 3rem;
+} */
+
+/* .divider-custom .divider-custom-icon {
+  color: #2c3e50 !important;
+  
+}*/
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 20rem;
+  height: 0.9rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+
+/* .divider-custom .divider-custom-line:first-child {
+  margin-right: 2rem;
+} */
+
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 2rem;
+}
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #fff;
+}
+
+/* .jumbotron h1 {
+  font-family: "Audiowide", sans-serif;
+  animation: text 6s infinite;
+} */
+
+/* @keyframes text {
+  0% {
+    color: black;
+    margin-bottom: 0px;
+  }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: 0px;
+  }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: 0px;
+  }
+} */
+
+@keyframes bgcolor {
+  0% {
+    background: #3498db;
+  }
+  20% {
+    background: #e67e22;
+  }
+  40% {
+    background: #8e44ad;
+  }
+  60% {
+    background: #3b3b98;
+  }
+  80% {
+    background: #fd7272;
+  }
+  100% {
+    background: #f368e0;
+  }
+  120% {
+    background: #3498db;
+  }
+  140% {
+    background: #3498db;
+  }
+}
+
+#about {
+  min-height: 600px;
+  padding-top: 75px;
+}
+
+/* #about h2:hover {
+  box-shadow: 28px 20px 20px rgba(0, 0, 0, 0.5);
+} */
+
+#about p {
+  padding-top: 20px;
+}
+
+.btn {
+  animation: bgcolor infinite 3s;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 9px 3px rgba(0, 0, 0, 0.5);
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  transition: 0.9s;
+}
+
+#gallery {
+  background-color: #a1b1f8;
+  /* background-color: #e2edff; */
+}
+
+/* #gallery h2:hover {
+  box-shadow: 27px 20px 20px rgba(0, 0, 0, 0.5);
+} */
+
+section {
+  padding-top: 5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+section h2 {
+  text-shadow: 5px 3px 5px rgb(65, 64, 64);
+  font-size: 40px;
+}
+
+footer .row ul {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+footer .row ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+footer .row ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 43px;
+  transition: 0.5s;
+}
+/* footer .row ul li .fa:hover {
+  color: #ffffff;
+} */
+footer .row ul li a {
+  margin-top: 60px;
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  /* transition: 0.5s;
+  transform: translate(0, 0px); */
+}
+footer .row ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  box-shadow: 4px 9px 9px 5px rgba(0, 0, 0, 0.5);
+}
+/* footer .row ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+footer .row ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+footer .row ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+footer .row ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+footer .row ul li:nth-child(5) a:hover {
+  background-color: #0077b5;
+} */
+
+footer {
+  background-color: #333333;
+  height: 200px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+footer h4 {
+  text-shadow: 5px 3px 4px rgb(206, 58, 58);
+  color: white;
+}
+
+footer p {
+  font-size: 20px;
+  color: #aaa;
+  margin-top: 75px;
+}
